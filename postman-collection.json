@@ -1,0 +1,172 @@
+{
+	"info": {
+		"name": "Go-REST-MongoDB",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All VehicleRegistration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:3000/api/vehicleRegistrationNumber",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"vehicleRegistrationNumber"
+					]
+				},
+				"description": ""
+			},
+			"response": [
+				{
+					"id": "626464d1f39ead18a1869147",
+					"vehicle": {
+						"registrationNumber": "test123",
+						"vehicleMake": "test123",
+						"vehicleModel": "test123",
+						"vehicleVariant": "test123",
+						"registrationDate": "test123",
+						"manufactureYear": "test123",
+						"rtoCode": "test123",
+						"rtoLocation": "test123",
+						"fuelType": "test123",
+						"engineNo": "test123",
+						"chasisNo": "test123"
+					},
+					"customer": {
+						"individualOrOrganisation": "test123",
+						"individual": {
+							"firstName": "test123",
+							"lastName": "test123"
+						},
+						"organisation": {
+							"organisationName": "test123"
+						},
+						"permanentAddress": "test123",
+						"communicationAddress": "test123",
+						"phoneNumber": "test123",
+						"emailAddress": "test123",
+						"dateOfBirth": "test123",
+						"nomineeName": "test123",
+						"nomineeAge": "test123",
+						"nomineeRelationship": "test123"
+					},
+					"insurance": {
+						"insuranceProvider": "test123",
+						"policyNumber": "test123",
+						"policyType": "test123",
+						"policyTerm": "test123",
+						"riskStartDate": "test123",
+						"riskEndDate": "test123"
+					}
+				},
+				{
+					"id": "626465a3f39ead18a1869148",
+					"vehicle": {
+						"registrationNumber": "test123",
+						"vehicleMake": "test123",
+						"vehicleModel": "test123",
+						"vehicleVariant": "test123",
+						"registrationDate": "test123",
+						"manufactureYear": "test123",
+						"rtoCode": "test123",
+						"rtoLocation": "test123",
+						"fuelType": "test123",
+						"engineNo": "test123",
+						"chasisNo": "test123"
+					},
+					"customer": {
+						"individualOrOrganisation": "test123",
+						"individual": {
+							"firstName": "test123",
+							"lastName": "test123"
+						},
+						"organisation": {
+							"organisationName": "test123"
+						},
+						"permanentAddress": "test123",
+						"communicationAddress": "test123",
+						"phoneNumber": "test123",
+						"emailAddress": "test123",
+						"dateOfBirth": "test123",
+						"nomineeName": "test123",
+						"nomineeAge": "test123",
+						"nomineeRelationship": "test123"
+					},
+					"insurance": {
+						"insuranceProvider": "test123",
+						"policyNumber": "test123",
+						"policyType": "test123",
+						"policyTerm": "test123",
+						"riskStartDate": "test123",
+						"riskEndDate": "test123"
+					}
+				}
+			]
+		},
+		{
+			"name": "Create Vehicle Registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Title (2)\",\n        \"description\": \"Description (2)\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/vehicleRegistrationNumber",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"vehicleRegistrationNumber"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Vehicle Registration",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/vehicleRegistrationNumber/5e579ca8dfdcb20c952310bc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"vehicleRegistrationNumber",
+						"5e579ca8dfdcb20c952310bc"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
